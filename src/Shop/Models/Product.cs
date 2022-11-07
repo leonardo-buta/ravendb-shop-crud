@@ -1,0 +1,21 @@
+﻿namespace Shop.Models
+{
+    public class Product
+    {
+        public string? Id { get; set; }
+        public string? Name { get; set; }
+        public decimal Price { get; set; }
+
+        public Product()
+        {
+
+        }
+
+        public Product(string id, string name, decimal price)
+        {
+            Id = id;
+            Name = name;
+            Price = price;
+        }
+    }
+}
